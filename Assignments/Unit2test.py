@@ -14,11 +14,8 @@ print ( first_word +  second_word +  third_word)
 def add_three (x, y, z):
     print (x + y + z)
 
-rain = input ("input int\n>")
-rust = input ("input int\n>")
-runt = input ("input int\n>")
-int(rain)
-int(rust)
-int(runt)
+rain = int(input ("input int\n>"))
+rust = int(input ("input int\n>"))
+runt = int(input ("input int\n>"))
 
 add_three(rust, rain, runt)
