@@ -1,7 +1,7 @@
 """
 once there was a (noun) named (name)
 and (pronoun) went to (place) to get
-(cool-thing) form (2nd-noun) (pronoun) got the (cool-thing)
+(cool-thing) form a (2nd-noun) (pronoun) got the (cool-thing)
 and (pronoun) went home in there home they placed the (cool-thing) in there (room)
 and (pronoun) (verb) and went to the (2nd-place) to do stuff with (2nd-name)
 """
@@ -17,5 +17,5 @@ action = input ("plese enter a action\n>")
 sec_place = input ("please enter a second place\n>")
 sec_name = input ("please enter a second name\n>")
 
-def mad_lib():
-    print ("onece there was a " + noun + "named" + name + "and" + pronoun + "went to " + place + "to get" + coolthing + "from" + sec_noun + pronoun + "got the" +coolthing + "and" + pronoun + "went home in there home they placed the" + coolthing + "in there" + room + "and" + pronoun + action + "and went to the" + sec_place + "to do stuff with" + sec_name) 
+
+print ("onece there was a " + noun + " named " + name + " and " + pronoun + " went to " + place + " to get " + coolthing + " from a " + sec_noun + " " + pronoun + " got the " +coolthing + " and " + pronoun + " went home in there home they placed the " + coolthing + " in there " + room + " and " + pronoun + " " + action + " and went to the " + sec_place + " to do stuff with " + sec_name) 
