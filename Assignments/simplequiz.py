@@ -10,17 +10,19 @@ def calculater():
     if a1.lower == "darth vader":
         score = score + 1
 
-    if a2.lower == "princess Leia":
+    elif a2.lower == "princess Leia":
         score = score + 1
 
-    if a3.lower == "anakin skywalker":
+    elif a3.lower == "anakin skywalker":
         score = score + 1
 
-    if a4.lower == "mustafar":
+    elif a4.lower == "mustafar":
         score = score + 1
 
-    if a5 == "father":
+    elif a5 == "father":
         score = score + 1
+    else:
+        print('stop')
 
     print("score " + str(score) + "/5")
 
