@@ -1,8 +1,8 @@
-
+#i am better than pirate software
 startcar = input ("what is the car you want\n>")#please say the saab 950
 cash = 9000 #say 9999 to go to dev comand <make dev comands
 print (cash)
-
+print ("")
 def start ():#start here\/
     day1 = print ()
     print("you wake up to your car is broken")
@@ -26,9 +26,10 @@ def fixthecar():
 
     if choice_1 == "1":
         global cash
-        cash = 8800
+        cash = cash - 250
         print (cash)
     elif choice_1 == "2":
+        print ("coward")
         sellit()
     elif choice_1 == "return":
         start()
@@ -41,7 +42,7 @@ def sellit():#sell it
     choice_2 = input (">")
     if choice_2 == '1':
         global cash
-        cash = 11500
+        cash = cash + 3500
         print (cash)
         getnewcar()
     elif choice_2 == '2':
@@ -74,14 +75,44 @@ def getnewcar():
     get = input (">")    
 
     if get == 'Y':
-        print ("work in proges")
+        slectcar()
     elif get == 'N':
         print ("this is the first\n!!GOOD JOB!!\n:)\nending pls enter car at the bottom")
     else:
         print ("pls make shore that it is upperchase")
+        getnewcar()
 
+def slectcar ():
+    print (" get a new car ")
+    print ("1. 1999 ford f150 singal cab -2400")
+    print ("2. 2007 honda accord -4500")
+    print ("3. 1966 buick riviera -6000")
+    print ("4. 1967 chevy impala -27000")
+    print ("5. 1977 pontiac firebird trans am -7500")
+    print ("6. 1982 pontiac firebird formula -4500")
+    car = input(">")
+
+    if car == '1':
+        global cash
+        cash = cash - 2400
+    elif car == '2':
+        cash = cash - 4500
+    elif car == '3':
+        cash = cash - 6000
+    elif car == '4':
+        cash = cash - 27000
+    elif car == '5':
+        cash = cash - 7500
+    elif car == '6':
+        cash = cash -4500
+    elif car == '67':
+        print ("i hate you\na lot\n you lose>:(")
+    else:
+        print ("that is not an option")
+        slectcar()
+    print(cash)
 def dev():
-    print("jump func 1-4")
+    print("jump func 1-6")
     jump= input('>')
     if jump == '1':
         start()
@@ -91,8 +122,16 @@ def dev():
         sellit()
     elif jump == '4':
         backtobed()
+    elif jump == '5':
+        getnewcar()
+    elif jump == '6':
+        slectcar()
     elif jump == 'start':
         start()
+    elif jump == "add":
+        global cash
+        cash = 9999999
+        dev()
     else:
         print ("not a command")
         dev()
@@ -102,369 +141,326 @@ if startcar == "TEST":
 else:
     start()
 
-
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-#work in progress
-
-"""car here pls \/ :pls do not enter more then one if 2nd play tho if car is the same just put a multaplyer
-exampal car.pontiac firebird 77X
-.1
-
-
-!!ONLY THE ONE YOU INPUT!!
 """
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+work in progress --print (random.randint (1, 100))-- 
+ """
+"""
+ ar here pls \/ :pls do not enter more then one if 2nd play tho if car is the same just put a multaplyer
+ exampal car.pontiac firebird 77X
+ 1.
+ !ONLY THE ONE YOU INPUT!!
+ """
+ #get it done by friday
 
-#get it done by friday
+
+
+
+
+
+
+
