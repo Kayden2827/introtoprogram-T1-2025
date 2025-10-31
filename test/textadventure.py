@@ -1,6 +1,9 @@
+
+import random
 #i am better than pirate software
 startcar = input ("what is the car you want\n>")#please say the saab 950
 cash = 9000 #say 9999 to go to dev comand <make dev comands
+health = 100
 print (cash)
 print ("")
 def start ():#start here\/
@@ -34,6 +37,11 @@ def fixthecar():
         sellit()
     elif choice_1 == "return":
         start()
+    else:
+        print ("ok")
+
+
+
 def sellit():#sell it
     print ("you sell the car what on")
     print ("1. facebook marketplace")
@@ -57,6 +65,10 @@ def sellit():#sell it
     elif choice_2 == '4':
         print ("they do not want you car")
         sellit()
+
+
+
+    
 def backtobed():
     print ('return to wake up')
     cheats= input(">")
@@ -82,6 +94,9 @@ def getnewcar():
     else:
         print ("pls make shore that it is upperchase")
         getnewcar()
+
+
+
 
 def slectcar ():
     print (" get a new car ")#google some of these they are cool cars 1990s and older are the cooler ones but to each there own
@@ -119,6 +134,11 @@ def slectcar ():
         slectcar()
     print ("now you need to go to the store")
     gothestore()
+
+
+
+
+
 def gothestore():
     print ("you arive at the store")
     input ("prese enter to continue")
@@ -152,11 +172,30 @@ def gothestore():
     else:
         print ("no you can't have bros sandwich")
         gothestore()
+    fightgas()
 
 
 
 
-
+    
+def fightgas():
+    print ("you go outside to a random guy steeling your gas")
+    print ("1. wait thats not my car")
+    print ("2. punch him")
+    print ("3. go to your car")
+    fight = input (">")
+    if fight == 1:
+        print ("that was not your car\nso you go home")
+    elif fight == '2':
+        print ("role a d6")
+        print (random.randint(1, 6))
+        print ("/\ you did that\n idk i dont know how to play dnd")
+        print ("the guy just fell over btw\n and it was not even your car")
+    elif fight == '3':
+        print ("3. you go to your car because its not your car")
+    else:
+        print ("hint: it,s not your car")
+        
 
 
 
@@ -196,105 +235,7 @@ else:
     start()
 
 """
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
+
 work in progress 
 work in progress 
 work in progress 
@@ -503,3 +444,28 @@ work in progress
 work in progress 
 work in progress 
  """
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
