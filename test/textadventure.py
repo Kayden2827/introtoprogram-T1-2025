@@ -20,6 +20,8 @@ def start ():#start here\/
         sellit()
     elif choice == "3":
         backtobed()
+    else:
+        print("no")
 
 def fixthecar():
     print("you see that your brack pads need to be replaced")
@@ -195,11 +197,31 @@ def fightgas():
         print ("3. you go to your car because its not your car")
     else:
         print ("hint: it,s not your car")
-        
+        print("no go to work")
+        fightgas()
+    gotowork
 
+def gotowork():
+    print("whare do you work")
+    print("1. mcdonalds ")
+    print("2. auto zone")
+    print("3. discont tires")
+    print("4. kwik trip")
 
+def road():
+    print("you come up to intersection")
+    print("go left")
+    print("go right")
+    rightleft = intput ("left or right\n>")
 
-
+    if rightleft == 'left':
+        print ("ops one way you die")
+        print (" have a nice day ")
+    elif rightleft == 'right':
+        print ("you get to work safe")
+        print (" you lived have a nice day ")
+    else:
+        print ("hey man")
 
 def dev():
     print("jump func 1-6\nadd to get test cash\nstart to start game")
@@ -233,239 +255,3 @@ elif startcar == 'saab':
     start()
 else:
     start()
-
-"""
-
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
-work in progress 
- """
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
