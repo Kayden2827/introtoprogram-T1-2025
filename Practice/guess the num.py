@@ -11,3 +11,4 @@ while guess == number:
         print("you are to high")
     elif guess == number:
         print ("good job")
+
